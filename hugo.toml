@@ -28,6 +28,7 @@ theme = "diary"
 subtitle = "世界是我们的游乐场."
 enableGiscus = true
 
+
 [params.giscus]
     data-repo="Passi0n1/passi0n1.github.io"
     data-repo-id="R_kgDOOOjm3g"
@@ -68,4 +69,5 @@ clarity = "abcdefghzd"
 # Google Analytics
 [services]
   [services.googleAnalytics]
-    id = "G-ESWXK6HG1Q"  # Your Google Analytics ID
+    id = "G-ESWXK6HG1Q"  
+
