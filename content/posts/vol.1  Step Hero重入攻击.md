@@ -22,6 +22,7 @@ https://nickfranklin.site/2025/02/21/stepheronfts-attacked/
 
 ## 攻击步骤解析
 ### 1. 部署恶意合约
+
 攻击者首先部署了多个恶意合约，以便后续进行重入攻击。
 
 <center>{{< figure src="/images/424896141-692a2eae-d3d7-40bc-b16b-d86c061c5645.png" width="100%" title="图1" >}}</center>
