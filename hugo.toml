@@ -27,16 +27,12 @@ theme = "diary"
 [params]
 subtitle = "世界是我们的游乐场."
 enableGiscus = true
-    data-repo="Passi0n1/blog"
-    data-repo-id="R_kgDOOOMa6w"
-    data-category="General"
-    data-category-id="DIC_kwDOOOMa684Cob67"
-    data-mapping="pathname"
+
 [params.giscus]
-    data-repo="Passi0n1/blog"
-    data-repo-id="R_kgDOOOMa6w"
-    data-category="General"
-    data-category-id="DIC_kwDOOOMa684Cob67"
+    data-repo="Passi0n1/passi0n1.github.io"
+    data-repo-id="R_kgDOOOjm3g"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOOOjm3s4Coczr"
     data-mapping="pathname"
     data-strict="0"
     data-reactions-enabled="1"
