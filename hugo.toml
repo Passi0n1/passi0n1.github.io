@@ -11,10 +11,6 @@ theme = "diary"
   filename = "sitemap.xml"
   priority = 0.5
 
-# Google Analytics
-[services]
-  [services.googleAnalytics]
-    id = "G-ESWXK6HG1Q"  # Your Google Analytics ID
 
 [markup]
   [markup.highlight]
@@ -30,22 +26,12 @@ theme = "diary"
 
 [params]
 subtitle = "世界是我们的游乐场."
-enableGitalk = false
 enableGiscus = true
-
-
-# Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
-clarity = "abcdefghzd"
-
-# Twitter Card and Open Graph settings
-enableOpenGraph = true
-enableTwitterCards = true
-title = "My Blog" # will set 'og:site_name'
-description = "My HomePage Description"  # will set 'og:description'
-
-
-
-# Please visit https://giscus.app/ to generate settings.
+    data-repo="Passi0n1/blog"
+    data-repo-id="R_kgDOOOMa6w"
+    data-category="General"
+    data-category-id="DIC_kwDOOOMa684Cob67"
+    data-mapping="pathname"
 [params.giscus]
     data-repo="Passi0n1/blog"
     data-repo-id="R_kgDOOOMa6w"
@@ -77,3 +63,13 @@ weight = 3
 
 [markup.goldmark.renderer]
     unsafe = true
+
+
+
+# Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
+clarity = "abcdefghzd"
+
+# Google Analytics
+[services]
+  [services.googleAnalytics]
+    id = "G-ESWXK6HG1Q"  # Your Google Analytics ID
