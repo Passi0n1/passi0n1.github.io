@@ -1,0 +1,79 @@
+baseURL = "https://passi0n1.github.io/"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-cn"
+title = "Passi0n1's Blog"
+copyright = "Rise. 本站遵循 CC-BY-NC 4.0 协议"
+theme = "diary"
+
+# Generate sitemap in the public folder
+[sitemap]
+  changefreq = "always"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Google Analytics
+[services]
+  [services.googleAnalytics]
+    id = "G-ESWXK6HG1Q"  # Your Google Analytics ID
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
+
+[params]
+subtitle = "世界是我们的游乐场."
+enableGitalk = false
+enableGiscus = true
+
+
+# Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
+clarity = "abcdefghzd"
+
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
+
+
+
+# Please visit https://giscus.app/ to generate settings.
+[params.giscus]
+    data-repo="Passi0n1/blog"
+    data-repo-id="R_kgDOOOMa6w"
+    data-category="General"
+    data-category-id="DIC_kwDOOOMa684Cob67"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="1"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+
+
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 2
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 3
+
+
+[markup.goldmark.renderer]
+    unsafe = true
