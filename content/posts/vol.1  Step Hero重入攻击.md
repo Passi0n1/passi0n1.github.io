@@ -161,3 +161,21 @@ contract TokenHandler {
 3. **避免直接调用 `call` 进行转账**：
    - 推荐使用 `transfer` 或 `send`，虽然限制了 GAS，但能降低重入攻击的风险。
 
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="Passi0n1/passi0n1.github.io"
+        data-repo-id="R_kgDOOOjm3g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOOOjm3s4Coczr"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
