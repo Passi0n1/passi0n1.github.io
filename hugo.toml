@@ -30,19 +30,18 @@ subtitle = "世界是我们的游乐场."
 
 enableGiscus = true
 [params.giscus]
-    data-repo="Passi0n1/passi0n1.github.io"
-    data-repo-id="R_kgDOOOjm3g"
-    data-category="Announcements"
-    data-category-id="DIC_kwDOOOjm3s4Coczr"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="1"
-    data-input-position="top"
-    data-theme="preferred_color_scheme"
-    data-lang="zh-CN"
+    data_repo="Passi0n1/passi0n1.github.io"
+    data_repo_id="R_kgDOOOjm3g"    
+    data_category="Announcements"
+    data_category_id="DIC_kwDOOOjm3s4Coczr"
+    data_mapping="pathname"
+    data_strict="0"
+    data_reactions_enabled="1"
+    data_emit_metadata="0"
+    data_input_position="bottom"
+    data_theme="preferred_color_scheme"
+    data_lang="en"
     crossorigin="anonymous"
-
 
 [[menu.main]]
 url = "/tags"
