@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Passi0n1/passi0n1.github.io
   branch: main
-  auth: implicit
+  auth_type: implicit
   app_id: Ov23liHqiffFjcge1u0l
 
 media_folder: "static/images/uploads"
