@@ -1,0 +1,35 @@
+# /static/admin/config.yml
+
+# 后端配置：连接到你的 GitHub 仓库
+backend:
+  name: github
+  repo: "Passi0n1/passi0n1.github.io" # 已为你配置好
+  branch: main # 已为你配置好，你的主分支是 main
+
+# 媒体文件（图片等）配置
+# 关键：这部分配置将使图片与文章存放在同一个文件夹下，完美适配你现在的使用习惯！
+media_folder: "" # 留空，表示图片存储在文章的文件夹内
+public_folder: "" # 留空，表示Markdown中的图片路径是相对路径
+
+# 内容集合：定义你的博客文章
+collections:
+  - name: "posts" # 集合的唯一ID
+    label: "博客文章" # 在后台界面上显示的名称
+    folder: "content/posts" # 已为你配置好，你的文章都储存在这里
+    create: true # 允许在后台创建新文章
+    
+    # 关键：这个配置会让新建的文章自动成为一个文件夹，里面包含 index.md
+    # 例如：/content/posts/我的新文章/index.md
+    path: "{{slug}}/index.md"
+    
+    # 再次定义媒体文件夹，确保图片上传到文章自己的目录里
+    media_folder: ""
+    public_folder: ""
+    
+    # 定义文章的字段，完全匹配你现有文章的 Front Matter
+    fields:
+      - { label: "标题 (Title)", name: "title", widget: "string" }
+      - { label: "发布日期 (Date)", name: "date", widget: "datetime" }
+      - { label: "标签 (Tags)", name: "tags", widget: "list", optional: true }
+      - { label: "分类 (Categories)", name: "categories", widget: "list", optional: true }
+      - { label: "正文 (Body)", name: "body", widget: "markdown" }```
