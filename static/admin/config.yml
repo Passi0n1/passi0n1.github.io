@@ -1,12 +1,12 @@
-
 backend:
   name: github
   repo: "Passi0n1/passi0n1.github.io"
   branch: main
+  app_id: Ov23liHqiffFjcge1u0l 
+  auth_endpoint: https://auth.decap.cms/
 
 media_folder: ""
 public_folder: ""
-
 
 collections:
   - name: "posts"
