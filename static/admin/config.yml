@@ -1,12 +1,12 @@
 backend:
   name: github
-  repo: Passi0n1/passi0n1.github.io   
+  repo: Passi0n1/passi0n1.github.io
   branch: main
   auth: implicit
-  app_id: <你的 GitHub OAuth App Client ID>
+  app_id: Ov23liHqiffFjcge1u0l
 
-media_folder: "static/images/uploads"   
-public_folder: "/images/uploads"       
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "posts"
