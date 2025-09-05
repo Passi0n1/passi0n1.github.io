@@ -1,34 +1,16 @@
+
 backend:
   name: github
   repo: Passi0n1/passi0n1.github.io
   branch: main
-  auth_type: implicit 
+  auth_type: implicit
   app_id: Ov23liHqiffFjcge1u0l
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
-
+media_folder: ""
 collections:
-  - name: "posts"
-    label: "博客文章"
-    folder: "content/posts" 
+  - name: "test"
+    label: "测试"
+    folder: "_posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
     fields:
-      - label: "标题"
-        name: "title"
-        widget: "string"
-      - label: "发布日期"
-        name: "date"
-        widget: "datetime"
-      - label: "标签"
-        name: "tags"
-        widget: "list"
-        required: false
-      - label: "分类"
-        name: "categories"
-        widget: "list"
-        required: false
-      - label: "正文"
-        name: "body"
-        widget: "markdown"
+      - { label: "Title", name: "title", widget: "string" }
