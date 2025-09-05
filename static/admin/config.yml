@@ -1,24 +1,22 @@
 backend:
   name: github
-  repo: "Passi0n1/passi0n1.github.io"
+  repo: Passi0n1/passi0n1.github.io   
   branch: main
-  app_id: Ov23liHqiffFjcge1u0l 
-  auth_endpoint: https://auth.decap.cms/
+  auth: implicit
+  app_id: <你的 GitHub OAuth App Client ID>
 
-media_folder: ""
-public_folder: ""
+media_folder: "static/images/uploads"   
+public_folder: "/images/uploads"       
 
 collections:
   - name: "posts"
     label: "博客文章"
     folder: "content/posts"
     create: true
-    path: "{{slug}}/index.md"
-    media_folder: ""
-    public_folder: ""
+    slug: "{{slug}}"
     fields:
       - { label: "标题 (Title)", name: "title", widget: "string" }
       - { label: "发布日期 (Date)", name: "date", widget: "datetime" }
-      - { label: "标签 (Tags)", name: "tags", widget: "list", optional: true }
-      - { label: "分类 (Categories)", name: "categories", widget: "list", optional: true }
+      - { label: "标签 (Tags)", name: "tags", widget: "list", required: false }
+      - { label: "分类 (Categories)", name: "categories", widget: "list", required: false }
       - { label: "正文 (Body)", name: "body", widget: "markdown" }
